@@ -67,8 +67,8 @@ function FaceDetection() {
         canvasContext.drawImage(videoElement, 0, 0, canvasElement.width, canvasElement.height);
 
         faceapi.matchDimensions(canvasElement, {
-          width: 250,
-          height: 250,
+          width: 350,
+          height: 350,
         });
 
         const resizedDetections = faceapi.resizeResults(detections, {
@@ -120,7 +120,7 @@ function FaceDetection() {
     <div className="myapp">
       <div className="appvideo">
         {isVideoOn ? (
-          <video crossOrigin="anonymous" ref={videoRef} autoPlay height={250} width={250} />
+          <video crossOrigin="anonymous" ref={videoRef} autoPlay height={350} width={350} />
 
         ) : (
           <button type='button' onClick={startVideoAndDetect}>Click to Detect!</button>
@@ -131,7 +131,7 @@ function FaceDetection() {
         }
       </div>
 
-      {isVideoOn && <canvas ref={canvasRef} width="250" height="250" className="appcanvas" />}
+      {isVideoOn && <canvas ref={canvasRef} width="350" height="350" className="appcanvas" />}
     </div>
   );
 }

@@ -23,8 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border: none;
   }
   
@@ -32,6 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
