@@ -1,0 +1,37 @@
+.appvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .appcanvas {
+    position: absolute;
+  }
+  
+  .disabled-canvas {
+    pointer-events: none; /* Disable pointer events on the canvas */
+    opacity: 0.7; /* Optionally reduce opacity to indicate that it's disabled */
+  }
+  
+  .myapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .myapp img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    border: none;
+  }
+  
+  .capturing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+  }
