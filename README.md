@@ -7,6 +7,9 @@ This is a simple web application that uses face-api.js to perform face detection
 - Face detection in images
 - Displaying face landmarks (optional)
 
+## Live
+[Live](https://face-detect-604y.onrender.com/)
+
 ## Prerequisite
 
 Before you begin, ensure you have met the following requirements:
